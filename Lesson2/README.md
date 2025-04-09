@@ -17,6 +17,10 @@ This lesson will show how to create your first program and run it on the Pico.
 
     led = Pin(25, mode=Pin.OUT, value=0)
     ```
+    - This code creates a Pin object and stores it in a new variable called led.
+    - This new led variable represents what we call a pin on the MicroProcessor.
+    - We have configured pin 25 to be a digital output, and set its value to 0.
+    - Digital outputs (and digital inputs) can only have the values 0 or 1.
 0. Save the file (CTRL+S or File->Save).
 0. Press the Green __Run__ button at the top of Thonny to run the script.
 0. The LED should now be turned off.
@@ -33,13 +37,11 @@ This lesson will show how to create your first program and run it on the Pico.
         led.value(0)
         led.value(1)
     ```
-
-    This creates a loop that will run forever, toggling the LED on and off.
+    - This creates a loop that will run forever, toggling the LED on and off.
+    - Because we previously stored the Pin object in a variable called led, we are able to change the value of the pin using the led variable.
 0. Try running this program. You should see that the LED is on, but it may not be as bright as it was before.
-    
-    This is because it toggling on and off very quickly.
-
-    To slow it down, we need to add some delays.
+    - This is because it toggling on and off very quickly.
+    - To slow it down, we need to add some delays.
 0. At the top of the file add the following line to import the time module:
     
     ```
@@ -56,28 +58,22 @@ This lesson will show how to create your first program and run it on the Pico.
     ```
 0. The LED should now be toggling on and off every second.
 0. In Python, indentation is very important.
-
-    In the above example, after "while True:", the following 4 lines are indented by 4 spaces.
-
-    This tells Python that these 4 lines are to be run as part of the while loop.
-
-    If the indentation is incorrect in Python, the program will either not run, or it won't run as expected.
+    - In the above example, after "while True:", the following 4 lines are indented by 4 spaces.
+    - This tells Python that these 4 lines are to be run as part of the while loop.
+    - If the indentation is incorrect in Python, the program will either not run, or it won't run as expected.
 0. We can also add some print statements to our script so we can see what part of the code is executing.
     - In the loop, try adding the following code just after setting the led value to 0. Also add it after setting the led value to 1.
 
-    ```
-    print(f"The LED value is {led.value()}")
-    ```
+        ```
+        print(f"The LED value is {led.value()}")
+        ```
     - After re-running the script, you should see the state of the LED printed everytime it toggles.
-
-    The print() function prints text to the Shell. The letters between the quotes are the string that should be printed.
-
-    In the above example, we have put the letter __f__ before the string. This tells python that the string may contain formatted data.
-
-    In this case, we want to print a value, which we put inside the {} curly braces.
+    - The print() function prints text to the Shell. The letters between the quotes are the string that should be printed.
+    - In the above example, we have put the letter __f__ before the string. This tells python that the string may contain formatted data.
+    - In this case, we want to print a value, which we put inside the {} curly braces.
 
 We now know how to do the following:
 - Create a script file on our Pico board.
 - Run the script.
-- Configure a Pin and toggle it.
+- Configure a Pin and toggle it in a loop.
 - Print data to the Shell.
