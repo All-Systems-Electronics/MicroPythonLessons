@@ -10,7 +10,7 @@ We are going to use several components out of the Raspberry Pi kit, including:
 This lesson will build upon the circuit from the [Lesson 3](../Lesson3/README.md).
 
 1. Find the beeper in the kit. You'll notice it has a red wire and a black wire.
-    - We are going to make a sound on the beeper by toggling the pin using PWM (Pulse Width Modulation). PWM functionality is found on the first 16 GP pins, so GP0 to GP15 can be used.
+    - We are going to make a sound on the beeper by toggling the pin using PWM (Pulse Width Modulation). PWM functionality is found on the first 16 GP pins, so any of GP0 to GP15 can be used.
     - Connect the red wire to A20, which is GP15.
     - Connect the black wire to the negative column.
     - Your circuit should now look like this:
