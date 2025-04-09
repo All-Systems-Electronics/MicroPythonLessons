@@ -26,6 +26,7 @@ We are going to use several components out of the Raspberry Pi kit, including:
 0. Find an LED in your kit, any colour is fine.
     - Connect the longer lead (the Anode) to J22, and the short lead (the Cathode) to the negative rail.
     - Your circuit should now look like this:
+
     ![](Lesson3_LED.png)
 0. Connect your Pico to your PC using the USB cable.
 0. In Thonny, create a new python file on the Pico. Call it "Lesson3.py".
