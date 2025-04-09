@@ -6,7 +6,7 @@ These lessons use the Raspberry Pi Pico board, and lessons/instructions here wil
 ## Initial Setup
 1. [Download](https://thonny.org/) and install the Thonny IDE, which is where we'll write our code and communicate with the Pico.
 2. [Download](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2) the MicroPython for Pico firmware image.
-3. While the cable is disconnected from your PC, connect the Micro-B end of the cable into the Pico Board.
+3. While the USB cable is disconnected from your PC, connect the Micro-B end of the cable into the Pico Board.
 4. While holding down the __BOOTSEL__ button on the Pico board, connect the other end of the USB cable into your PC.
    
    Count slowly to 3 and then release the button.
@@ -16,7 +16,7 @@ These lessons use the Raspberry Pi Pico board, and lessons/instructions here wil
 6. Open the __RPI-RP2__ folder, where you should see the following files:
     - INDEX.HTM
     - INFO_UF2.txt
-7. In another window, open the folder containing the firmware image that was previously downloaded.
+7. In another window, open the folder containing the firmware image (.uf2) that was previously downloaded.
 8. Select the firmware image and drag-and-drop it into the __RPI-RP2__ folder.
 9. The board will now be flashed with the MicroPython firmware image.
     - After several seconds the RPI-RP2 removable drive should disappear.
