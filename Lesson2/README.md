@@ -1,6 +1,3 @@
-
-
-
 # Lesson 2
 This lesson will show how to create your first program and run it on the Pico.
 
