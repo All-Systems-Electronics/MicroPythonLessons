@@ -14,7 +14,7 @@ This lesson will build upon the circuit from the [Lesson 3](../Lesson3/README.md
     - Connect the red wire to A20, which is GP15.
     - Connect the black wire to the negative column.
     - Your circuit should now look like this:
-    ![](Lesson3_Buzzer.png)
+    ![](Lesson4_Buzzer.png)
 0. Connect your Pico to your PC using the USB cable.
 0. In Thonny, create a new python file on the Pico. Call it "Lesson4.py".
 0. Add the following to the start of the file:

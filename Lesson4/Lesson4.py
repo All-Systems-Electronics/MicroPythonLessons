@@ -15,7 +15,7 @@ def beep(freq: int):
         # Set the frequency desired by the caller.
         beeper_pwm.freq(freq)
         # Set the duty cycle to 50%, where 65535 is the maximum possible value.
-        beeper_pwm.duty_u16(65535 / 2)
+        beeper_pwm.duty_u16(int(65535 / 2))
 
 while True:
     beep(800)
