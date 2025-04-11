@@ -36,6 +36,8 @@ This lesson will build upon the circuit from the [Lesson 3](../Lesson3/README.md
         beeper_pwm.freq(1000)
         beeper_pwm.duty_u16(65535 >> 1)
         
+        time.sleep_ms(500)
+        
     ```
 0. Save the file and run it.
     - The beeper should now be playing a note on and off.
@@ -50,7 +52,7 @@ This lesson will build upon the circuit from the [Lesson 3](../Lesson3/README.md
             beeper_pwm.duty_u16(0)
         else:
             beeper_pwm.freq(freq)
-            beeper_pwm.duty_u16(65535 / 2)
+            beeper_pwm.duty_u16(int(65535 / 2))
     ```
     - Here we've defined a function called __beep__. This function contains the code to enable or disable the PWMing of the beeper pin.
     - We pass the frequency we would like the beeper to play, with a higher frequency producing a higher pitch.
