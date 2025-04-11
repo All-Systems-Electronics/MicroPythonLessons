@@ -34,3 +34,5 @@ It will then show how to enter commands into the shell to toggle the onboard LED
     timer = machine.Timer(freq=1, callback=lambda t: led.toggle())
     ```
 0. The LED should now be toggling between on and off once per second.
+
+[Back](../README.md)

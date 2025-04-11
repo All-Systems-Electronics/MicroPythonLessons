@@ -3,6 +3,14 @@ These lessons assume the student has access to the [Raspberry Pi Mega Kit](https
 
 These lessons use the Raspberry Pi Pico board, and lessons/instructions here will be loosely based off the [Get started with MicroPython on Raspberry Pi Pico](https://littlebirdelectronics.com.au/products/get-started-with-micropython-on-raspberry-pi-pico-2nd-edition) book contained in the kit.
 
+## Lessons
+* [Lesson 1](/Lesson1/README.md)
+* [Lesson 2](/Lesson2/README.md)
+* [Lesson 3](/Lesson3/README.md)
+* [Lesson 4](/Lesson4/README.md)
+* [Lesson 5](/Lesson5/README.md)
+* [Lesson 6](/Lesson6/README.md)
+
 ## Initial Setup
 1. [Download](https://thonny.org/) and install the Thonny IDE, which is where we'll write our code and communicate with the Pico.
 2. [Download](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2) the MicroPython for Pico firmware image.
