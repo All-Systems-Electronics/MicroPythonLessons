@@ -3,7 +3,7 @@ from machine import Pin
 # Import the time module so we can use the sleep functions.
 import time
 
-# Configure the onboard LED on GPIO 25 as a digital output, initially turned off.
+# Configure the external LED on GPIO 20 as a digital output, initially turned off.
 # The result of this configuration is returned as an object and stored in the led variable.
 led = Pin(20, mode=Pin.OUT, value=0)
 
