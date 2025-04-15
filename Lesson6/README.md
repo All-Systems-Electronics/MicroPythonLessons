@@ -6,7 +6,7 @@ This lesson will show how to bring all the different bits of code together:
 
 The circuit can be setup exactly as it was for [Lesson 5](../Lesson5/README.md).
 
-In Thonny, copy the code from [Lesson6.py](./Lesson6.py) into Lesson6.py on the Pico.
+In Thonny, copy the code from [Lesson5.py](./Lesson5.py) into Lesson6.py on the Pico.
 
 You will see that the code is split up into different classes.
 Normally each class would be in its own .py file. However, for ease of copying it onto the Pico its all in a single file.
